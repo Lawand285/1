@@ -1,13 +1,61 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
-  <title></title>
+  <meta charset="UTF-8">
+  <title>😂 The Funniest Page Ever</title>
+  <style>
+    body {
+      background-color: #fdf6e3;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #ff69b4;
+      font-size: 3em;
+    }
+    .marquee {
+      font-size: 1.5em;
+      color: #ff4500;
+      margin: 20px 0;
+    }
+    .progress-container {
+      margin: 20px 0;
+    }
+    .surprise-button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #8a2be2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .surprise-button:hover {
+      background-color: #5d0f9e;
+    }
+  </style>
 </head>
 <body>
- <h1>lawand</h1>
 
+  <h1>Welcome to the Fun Zone! 🎈</h1>
 
+  <marquee class="marquee" behavior="scroll" direction="left" scrollamount="10">
+    🚀 This is the funniest scrolling text ever! 😂
+  </marquee>
 
+  <div class="progress-container">
+    <p>How funny is this page?</p>
+    <progress value="75" max="100"></progress>
+  </div>
+
+  <button class="surprise-button" onclick="showSurprise()">Click me for a surprise!</button>
+
+  <script>
+    function showSurprise() {
+      alert("🎉 Surprise! You're awesome! 🎉");
+    }
+  </script>
 
 </body>
 </html>
